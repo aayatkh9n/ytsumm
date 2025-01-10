@@ -1,5 +1,9 @@
 import streamlit as st
 import os
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+from video_info import GetVideo
 from .src.video_info import GetVideo
 from src.model import Model
 from src.prompt import Prompt
