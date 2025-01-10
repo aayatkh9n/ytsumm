@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from src.video_info import GetVideo
+from .src.video_info import GetVideo
 from src.model import Model
 from src.prompt import Prompt
 from src.misc import Misc
